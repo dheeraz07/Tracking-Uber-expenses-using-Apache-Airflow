@@ -1,6 +1,6 @@
 # Building an ETL pipeline with Apache Airflow and Visualizing AWS Redshift data using Microsoft Power BI
 
-### Check the article here:  <a href="https://aws.plainenglish.io/uber-expenses-tracking-with-airflow-redshift-powerbi-27688a686f60">Building an ETL data pipeline with Apache Airflow and Visualizing AWS Redshift data using Microsoft Power BI</a>
+Building an ETL data pipeline with Apache Airflow and Visualizing AWS Redshift data using Microsoft Power 
 
 <p align="justify">
 Have you heard phrases like <strong>Hungry? You're in the right place</strong> or <strong>Request a trip, hop in, and relax.</strong> ? Both phrases are very common in our daily lives, they represent the emblems of the two most important businesses with <a href="https://qz.com/1889602/uber-q2-2020-earnings-eats-is-now-bigger-than-rides/"> millionaire revenues </a> from UBER. <strong>Have you ever thought about how much money you spend on these services?</strong> The goal of this project is to track the expenses of <a href="https://www.uber.com/">Uber Rides</a> and <a  href="https://www.ubereats.com/">Uber Eats</a> through a data Engineering processes using technologies such as <a href="https://airflow.apache.org/">Apache Airflow</a>, <a href="https://aws.amazon.com/es/redshift/">AWS Redshift</a> and <a href="https://powerbi.microsoft.com/es-es/">Power BI</a>. Keep reading this article, I will show you a quick and easy way to automate everything step by step.
@@ -54,7 +54,7 @@ Below we list the different steps and the things carried out in this file:
 - Install <a href="https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/">git-bash for windows</a>, once installed , open **git bash** and download this repository, this will download the **dags** folder and the **docker-compose.yaml** file, and other files needed.
 
 ``` 
-ramse@DESKTOP-K6K6E5A MINGW64 /c
+
 $ git clone https://github.com/Wittline/uber-expenses-tracking.git
 ```
 - Second, create a new User in AWS with *AdministratorAccess** and get your security credentials
@@ -353,20 +353,17 @@ Amazon AWS has an answer to the need of data engineers who love Apache Airflow i
 
 
 ```linux 
-ramse@DESKTOP-K6K6E5A MINGW64 /c
 $ cd Uber-expenses-tracking
 
-ramse@DESKTOP-K6K6E5A MINGW64 /c/Uber-expenses-tracking
+
 $ cd code
 ```
 
 ```linux 
-ramse@DESKTOP-K6K6E5A MINGW64 /c/Uber-expenses-tracking/code
 $ echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
 ```
 
 ```linux
-ramse@DESKTOP-K6K6E5A MINGW64 /c/Uber-expenses-tracking/code
 $ docker-compose up airflow-init
 ```
 
@@ -496,9 +493,4 @@ Now, you will connect Power BI Desktop to AWS Redshift data, create a dashborad 
 ## Contributing and Feedback
 Any ideas or feedback about this repository?. Help me to improve it.
 
-## Authors
-- Created by <a href="https://www.linkedin.com/in/ramsescoraspe"><strong>Ramses Alexander Coraspe Valdez</strong></a>
-- Created on 2021
 
-## License
-This project is licensed under the terms of the Apache License.
