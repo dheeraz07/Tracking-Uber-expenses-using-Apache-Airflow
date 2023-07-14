@@ -22,12 +22,14 @@ Every time an Ubers Eat or Uber Rides service has ended, you will receive a paym
 
 ### Uber Rides receipt example
 
-![alt text](https://wittline.github.io/uber-expenses-tracking/Images/rides_receipt_example.png)
+![image](https://github.com/dheeraz07/Tracking-Uber-expenses-using-Apache-Airflow/assets/111170687/a07fd770-82b0-4dc0-bff1-704f55f073a7)
+
  
 
 ### Uber Eats receipt example
 
-![alt text](https://wittline.github.io/uber-expenses-tracking/Images/eats_receipt_example.png)
+![image](https://github.com/dheeraz07/Tracking-Uber-expenses-using-Apache-Airflow/assets/111170687/e3b01ef9-eddf-4c93-bc80-29c4ba1f2c72)
+
 
 
 ## Data modelling
